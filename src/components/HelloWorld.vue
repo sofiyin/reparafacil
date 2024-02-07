@@ -1,4 +1,5 @@
 <script setup>
+
 defineProps({
   msg: {
     type: String,
@@ -11,7 +12,7 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      Encuentra tu reparador del hogar.
     </h3>
   </div>
 </template>
@@ -29,6 +30,7 @@ h3 {
 }
 
 .greetings h1,
+
 .greetings h3 {
   text-align: center;
 }

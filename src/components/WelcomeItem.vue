@@ -20,7 +20,7 @@
 }
 
 .details {
-  flex: 1;
+  flex: 2;
   margin-left: 1rem;
 }
 
@@ -54,7 +54,7 @@ h3 {
     border: 1px solid var(--color-border);
     background: var(--color-background);
     border-radius: 8px;
-    width: 20px;
+    width: 0px;
     height: 50px;
   }
 
