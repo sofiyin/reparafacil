@@ -1,12 +1,13 @@
 <script setup>
+import homeView from './components/homeView.vue'
 import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import BuscarRep from './components/BuscarRep.vue'
 </script>
 
 <template>
   <header>
-    <div class="wrapper">
-      <HelloWorld msg="Repara facil" />
+    <div class="fiti">
+      <router-view/>
     </div>
   </header>
 
@@ -14,28 +15,5 @@ import TheWelcome from './components/TheWelcome.vue'
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>

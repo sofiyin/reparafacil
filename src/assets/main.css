@@ -1,17 +1,96 @@
-@import './base.css';
 
 #app {
   width: 100%;
-  margin: 0 auto;
-  font-weight: normal;
+  height: 100%
 }
 
-a,
-.green {
+.a {
+  background-image: linear-gradient(180deg, #FF810C 39%, rgba(255, 157, 0, 0.632) 100%);
+  padding:10px;
+  background-repeat: initial;
+}
+.b {
+  background-color: #FF810C;
+  padding: 10px;
+}
+.c{
+  background-color: #ffffff;
+  padding-left: 15px;
+}
+.divi2{
+  display:flex;
+  flex-direction: row;
+  column-gap: 50%;
+}
+
+.c1{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10%;
+}
+.titulo h1{
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  padding: 2px;
+  padding-left: 20px;
+}
+.titulo h3{
+  font-size: 25px;
+  padding: 2px;
+  padding-left: 20px;
+}
+.hola{
   text-decoration: none;
-  color: rgb(234, 138, 5);
-  transition: 0.4s;
+  color: rgb(255, 255, 255);
   padding: 3px;
+  text-align: center;
+}
+.caja{
+  display: flex;
+  align-items: center;
+  place-content: center;
+  margin: 2px;
+  text-align: center;
+}
+.cajacentro{
+  width: 100%;
+  container: center;
+  display: flex;
+  border-radius: 30px;
+  background-color: bisque;
+  padding: 10px;
+  margin: 10px;
+  justify-content:space-around;
 }
 
+.caja1{
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  justify-content:space-around;
+}
+.caja2{
+  padding:5px;
+}
+.datos{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+  row-gap: 5px;
+  text-align: center;
+}
+.perfiles{
+  background-color: rgb(247, 235, 217);
+  border-radius: 30px;
+  height:max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.b h3{
+  text-align: center;
+}
 
